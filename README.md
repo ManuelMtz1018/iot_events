@@ -43,7 +43,7 @@ Este proyecto es una API REST desarrollada con Spring Boot para gestionar evento
 
 El proyecto utiliza perfiles de Spring para manejar diferentes entornos:
 
-- **dev**: Utiliza una base de datos H2 en memoria y el puerto 8081.
+- **dev**: Utiliza una base de datos MySQL y el puerto 8081.
 - **prod**: Configurado para usar MySQL.
 
 Para cambiar el perfil activo, modifica `src/main/resources/application.properties`:
